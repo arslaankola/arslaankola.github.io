@@ -86,15 +86,17 @@
 
     <style>
       #watermark {
-        position: fixed;
-        bottom: 10px;
-        width: 100%;
-        text-align: center;
-        font-size: 15px;
-        color: #888;
-        opacity: 0.9;
-        pointer-events: none;
-      }
+            position: fixed;
+            bottom: 10px;
+            left: 50%;  /* Center horizontally */
+            transform: translateX(-50%);  /* Adjust to center */
+            font-size: 15px;
+            color: #888;
+            opacity: 0.9;
+            pointer-events: none;
+            z-index: 1000;  /* Ensure it stays above other content */
+            width: auto;  /* Adjust width automatically */
+          }
     </style>
   </body>
 </html>
