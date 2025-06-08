@@ -156,20 +156,15 @@ body {
 
 .popup {
     position: relative;
-    top: -43%;
-    /* right: -100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
-    /* max-height: 500px; */
-    width: auto;
-    height: auto;
-    margin: 56px;
+    max-width: 300px;
+    width: 100%;
     background-color: var(--bgColor);
-    /* transform: rotate(32deg); */
     transform: scale(0);
     transition: .5s ease-in-out;
+    border-radius: 10px;
 }
 
 .popup-quote {
@@ -207,17 +202,16 @@ body {
 
 .popup-close {
     position: absolute;
-    right: -1rem;
-    top: -1rem;
-    width: 3rem;
-    height: 3rem;
-    font-size: 1.7rem;
-    font-weight: 400;
+    right: 0.5rem;  /* Changed from -1rem */
+    top: 0.5rem;    /* Changed from -1rem */
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     border-radius: 100%;
-    background-color: var(--bgColor);
     z-index: 4;
     color: var(--accentColor);
-    line-height: 2.7rem;
+    line-height: 1.9rem;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
