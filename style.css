@@ -155,7 +155,7 @@ body {
 }
 
 .popup {
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,7 +201,7 @@ body {
 }
 
 .popup-close {
-    position: absolute;
+    position: fixed;
     right: 0.5rem;  /* Changed from -1rem */
     top: 0.5rem;    /* Changed from -1rem */
     width: 2rem;
